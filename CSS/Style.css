@@ -1,0 +1,123 @@
+body {
+    overflow: hidden;
+  }
+  .loading {
+    z-index: 9999;
+    display: flex;
+  }
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.side-bar{
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+   background-color: white;
+   z-index: 999;
+}
+.detailed-side-bar{
+   top: 0;
+   bottom: 0;
+   background-color: black;
+  
+}
+ .small-side-bar{
+    background-color: white;
+    top: 0;
+    bottom: 0;
+} 
+.side-bar ul{
+    list-style: none;
+    color: white;
+}
+.side-bar ul li{
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+}
+.bardata{
+    color: white;
+}
+.img{
+    overflow: hidden;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(425px);
+overflow: hidden;
+background-color: rgba(244, 242, 242, 0.7);
+} 
+.img:hover .layer{
+    transition-duration: 1s;
+    transform: translateY(0);
+
+}
+.InstructionsData{
+    color: white;
+}
+
+.InstructionsData ul {
+    display: flex;
+    list-style: none;
+}
+.InstructionsData ul li{
+    background-color: #CFF4FC;
+    margin: 5px;
+    padding: 5px;
+    color: #39686F;
+}
+::placeholder{
+color: white !important;
+}
+.MealLayer{
+    background-color: #f9f6f6ca;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #0D0D0D;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: 0.5s all;
+
+}
+.MealLayer p{
+    color: #0D0D0D !important;
+
+}
+.meal:hover .MealLayer{
+    transform: translateY(0);
+    }
+ 
+#CategoryMeals p{
+color: white;
+    }
+#CategoryMeals i{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.ph{
+    height: 150px;
+    overflow: hidden;
+}
+li{
+cursor: pointer;
+}
+.area h3{
+    color: white; 
+}
+input::placeholder{
+  color: white;
+}
+input::placeholder{
+  color: black !important; 
+}
